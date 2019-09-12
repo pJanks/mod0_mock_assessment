@@ -1,29 +1,29 @@
-Class: Child
+Class: Chair
 
 Attributes:
-1. 
-2.
-3.
-4.
-5.
+1. condition (string)
+2. weightLimit (integer)
+3. currentWeight (integer)
+4. position (string)
+5. color (string)
 
 Methods:
-1.
-2.
-3.
-4.
+1. checkCondition (returns new, good, fair, bad)
+2. overweightAmount (subtracts currentWeight from weightLimit)
+3. percentOfWeightLimit (currentWeight / weightLimit)
+4. moveForward (moves chair 1 unit north)
 
 Class: Dog
 
 Attributes:
-1.
-2.
-3.
-4.
-5.
+1. breed (string)
+2. eyeColor (string)
+3. birthday (string)
+4. aggression (boolean)
+5. learnedBehavior (string)
 
 Methods:
-1.
-2.
-3.
-4.
+1. defineAge (subtracts birthday from current date)
+2. actsAggressive (yes = true)
+3. train (add 1 learnedBehavior)
+4. defineBreed (returns breed)
