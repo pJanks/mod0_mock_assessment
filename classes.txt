@@ -5,7 +5,7 @@ Attributes:
 2. weightLimit (integer)
 3. currentWeight (integer)
 4. position (string)
-5. color (string)
+5. color (string) 
 
 Methods:
 1. defineCondition (returns new, good, fair, bad)
