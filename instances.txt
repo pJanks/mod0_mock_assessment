@@ -13,8 +13,8 @@ Methods:
 1. defineCondition: "fair"
 2. overweightAmount: 305 - 300 = 5
 3. percentOfWeightLimit: 305 / 300 = 1.02
-4. moveForwardRight: position = "5 units right"
-5. moveForwardLeft: position = "4 units right"
+4. moveRight: position = "5 units right"
+5. moveLeft: position = "4 units right"
 
 Object: Lawn chair
 
@@ -29,8 +29,8 @@ Methods:
 1. defineCondition: "new"
 2. overweightAmount: 15 - 275 = -260
 3. percentOfWeightLimit: 15 / 275 = .05
-4. moveForwardRight: position = "1 unit right"
-5. moveForwardLeft: position = "0 unit"
+4. moveRight: position = "1 unit right"
+5. moveLeft: position = "0 unit"
 
 Instances: Dog
 
@@ -60,6 +60,6 @@ Attributes:
 
 Methods:
 1. defineAge: current date - birthdate = 6
-2. actsAggressive: true
+2. actsAggressive: yes = true
 3. train: 6 + 2 learnedBehavior = 8
 4. defineEyeColor: "brown"

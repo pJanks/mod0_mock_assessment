@@ -11,8 +11,8 @@ Methods:
 1. defineCondition (returns new, good, fair, bad)
 2. overweightAmount (subtracts currentWeight from weightLimit)
 3. percentOfWeightLimit (currentWeight / weightLimit)
-4. moveForwardRight (moves chair 1 unit right)
-5. moveForwardLeft (moves chair 1 unit left)
+4. moveRight (moves chair 1 unit right)
+5. moveLeft (moves chair 1 unit left)
 
 Class: Dog
 
