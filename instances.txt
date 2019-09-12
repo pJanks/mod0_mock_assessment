@@ -1,0 +1,65 @@
+Instances: Chair
+
+Object: La-Z-Boy
+
+Attributes:
+1. condition: "fair"
+2. weightLimit: 300
+3. currentWeight: 305
+4. position: "4 units right"
+5. color: "brown"
+
+Methods:
+1. defineCondition: "fair"
+2. overweightAmount: 305 - 300 = 5
+3. percentOfWeightLimit: 305 / 300 = 1.02
+4. moveForwardRight: position = "5 units right"
+5. moveForwardLeft: position = "4 units right"
+
+Object: Lawn chair
+
+Attributes:
+1. condition: "new"
+2. weightLimit: 275
+3. currentWeight: 15
+4. position: "0 unit"
+5. color: "white"
+
+Methods:
+1. defineCondition: "new"
+2. overweightAmount: 15 - 275 = -260
+3. percentOfWeightLimit: 15 / 275 = .05
+4. moveForwardRight: position = "1 unit right"
+5. moveForwardLeft: position = "0 unit"
+
+Instances: Dog
+
+Object: Rosco
+
+Attributes:
+1. breed: "german shepherd"
+2. eyeColor: "blue"
+3. birthdate: "09.12.2014"
+4. aggression: no
+5. learnedBehavior: 3
+
+Methods:
+1. defineAge: current date - birthdate = 5
+2. actsAggressive: no = false
+3. train: 3 + 1 learnedBehavior = 4
+4. defineBreed: "german shepherd"
+
+Object: Bentley
+
+Attributes:
+1. breed: american terrier
+2. eyeColor: brown
+3. birthdate: 08.12.13
+4. aggression: yes
+5. learnedBehavior: 6
+
+Methods:
+1. defineAge: current date - birthdate = 6
+2. actsAggressive: true
+3. train: 6 + 2 learnedBehavior = 8
+4. defineEyeColor: "brown"
